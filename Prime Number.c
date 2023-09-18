@@ -8,11 +8,11 @@ int main ()
     {
         if(a % i == 0)
         {
-            p++;
+            p=1;
         }
         i++;
     }
-    if (p == 2)
+    if (p == 1)
     {
         printf("prime");
     }
